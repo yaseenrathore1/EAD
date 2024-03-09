@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+.main {
+  padding: 0;
+}
+
+.about{
+  position: relative;
+}
+
+.border{
+  border-bottom: 5px solid #ffe701  !important;
+  height: 2px;
+
+}  
+
+.skill h2 , .benifits h2{
+  color: #006f70;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: italic;
+  font-variation-settings:
+  "wdth" 100;
+}
+.why{
+  border-bottom: 4px solid #f1eaa6 ;
+}
+
+.our{
+background-color: #006f70;
+color: #fff;
+width: 50px;
+border-radius: 50px 0 0 50px;
+padding:5px;
+padding-left:15px;
+}
+
+.about h1{
+position: absolute;
+top: 55%;
+left: 30%;
+color:#006f70 ;
+text-align: center;
+font-size: 7rem;
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 750;
+font-style: italic;
+font-variation-settings:
+  "wdth" 100;
+}
+@media screen and (max-width: 768px){
+  .about h1{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 2.5rem;
+
+  }
+}
+
+.bar {
+  font-size: 1rem;
+  padding-left: 40%;
+}
+.progress-bar{
+  background-color: #006f70;
+}
+
+
+
+
+/* review section  */
+.rev{
+  position: relative;
+  height: 70vh;
+}
+.rev p{
+text-align: center;
+}
+.rev h2{
+text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .rev {
+    height: 195vh;
+  }
+  .icons{
+    display: none;
+  }
+
+  .revimage img{
+    margin-left:35% !important;
+  }
+
+}
+
+.icons{
+border: 3px solid #242424 ;
+position: absolute;
+top: -10%;
+left: 18%;
+height: 15vh;
+background: rgb(229,229,229);
+background: radial-gradient(circle, rgba(229,229,229,1) 0%, rgba(246,246,246,1) 21%, rgba(225,225,225,1) 92%);
+overflow: hidden;
+}
