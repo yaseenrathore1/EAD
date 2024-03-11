@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-12 main">
      <img src="assets/about/about.jpeg" class="d-block w-100" alt="">
-     <h1>ABOUT US</h1>
+     <h1 class="animate__animated animate__backInUp">ABOUT US</h1>
     </div>
   </div>
 </div>
@@ -53,8 +53,18 @@
 <!-- review section  -->
 <div class="container-fluid rev bg-dark mt-5 mb-5">
   <div class="row">
-    <div class="col-md-8 icons px-5">
-      <img class="mx-5 image-fluid" src="assets\icon\icons.png" alt="">
+    <div class="col-md-8 col-sm-12 icons px-5">
+      <swiper-container class="mySwiper" loop="true" slides-per-view="3" [slidesPerView]="calculateSlidesPerView()">
+        <swiper-slide><img src="assets\icon\compucan.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\software3-min.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\corel.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\ai.jfif" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\ps.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\ae.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\id.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\pulse.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\expe.png" alt=""></swiper-slide>
+      </swiper-container>
     </div>
   </div>
 <div class="row revimage">
@@ -83,5 +93,4 @@
 </div>
 </div>
 
-
-<div class="border mt-5 mb-5 revbord"></div>
+<div class="border mt-5 mb-5"></div>

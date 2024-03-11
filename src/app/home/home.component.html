@@ -56,7 +56,7 @@
   <div class="row serv"  >
       <div class="col-md-12">
         <div class="d-flex justify-content-center align-items-center">
-          <a href="#" class="button">Embroidery Digitizing</a>
+          <a href="#" class="button animate__animated animate__bounce">Embroidery Digitizing</a>
         </div>
       </div>
          <div class="col-md-3"></div>
@@ -75,7 +75,7 @@
   <div class="row serv"  >
       <div class="col-md-12">
         <div class="d-flex justify-content-center align-items-center">
-          <a href="#" class="button">Vector Art</a>
+          <a href="#" class="button animate__animated animate__bounce">Vector Art</a>
         </div>
       </div>
          <div class="col-md-3"></div>
@@ -95,7 +95,7 @@
   <div class="row serv"  >
       <div class="col-md-12">
         <div class="d-flex justify-content-center align-items-center">
-          <a href="#" class="button">Graphic Design</a>
+          <a href="#" class="button animate__animated animate__bounce">Graphic Design</a>
         </div>
       </div>
          <div class="col-md-3"></div>
@@ -114,7 +114,7 @@
   <div class="row serv"  >
       <div class="col-md-12">
         <div class="d-flex justify-content-center align-items-center">
-          <a href="#" class="button">Custom Patches</a>
+          <a href="#" class="button animate__animated animate__bounce">Custom Patches</a>
         </div>
       </div>
          <div class="col-md-3"></div>
@@ -133,7 +133,7 @@
  <div class="row serv"  >
       <div class="col-md-12">
         <div class="d-flex justify-content-center align-items-center">
-          <a href="#" class="button">PORTFOLIO</a>
+          <a href="#" class="button animate__animated animate__bounce">PORTFOLIO</a>
         </div>
       </div>
     </div>
@@ -165,8 +165,18 @@
 
 <div class="container-fluid rev bg-dark mt-5 mb-5">
   <div class="row">
-    <div class="col-md-8 icons px-5">
-      <img class="mx-5 image-fluid" src="assets\icon\icons.png" alt="">
+    <div class="col-md-8 col-sm-12 icons px-5">
+      <swiper-container class="mySwiper" loop="true" slides-per-view="3" [slidesPerView]="calculateSlidesPerView()">
+        <swiper-slide><img src="assets\icon\compucan.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\software3-min.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\corel.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\ai.jfif" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\ps.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\ae.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\id.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\pulse.png" alt=""></swiper-slide>
+        <swiper-slide><img src="assets\icon\expe.png" alt=""></swiper-slide>
+      </swiper-container>
     </div>
   </div>
 <div class="row revimage">
@@ -196,3 +206,6 @@
 </div>
 
 <div class="border mt-5 mb-5"></div>
+
+
+

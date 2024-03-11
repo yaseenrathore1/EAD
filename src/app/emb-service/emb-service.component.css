@@ -1,0 +1,29 @@
+.head{
+ height: 30vh;
+ background: rgb(0,0,0);
+ background: linear-gradient(0deg, rgba(0,0,0,1) 24%, rgba(0,0,0,1) 27%, rgba(0,0,0,0.8575805322128851) 100%);
+}
+
+.head span{
+  color:#006f70;
+}
+
+.head p{
+ text-align: center;
+
+}
+.head h1 {
+  padding-top: 4%;
+  text-align: center;
+  color:#fff;
+  font-size:4rem;
+}
+
+.btsec .btn{
+ color: #a58e0c;
+ background-color: black;
+}
+
+
+
+

@@ -27,6 +27,7 @@ h2{
 
 .button{
   border: 5px solid #006f70;
+  border-radius: 10px;
   color: #006f70;
   border-color: #006f70;
   font-size: 3rem;
@@ -34,10 +35,13 @@ h2{
   text-decoration: none;
   margin-bottom: 20px;
   padding: 10px;
+  box-shadow: 10px 10px 12px #757575, -20px -20px 12px #ffffff;
 }
+
 .button:hover {
   background-color: #006f70;
   color: #ffffff;
+  transition: 0.5s;
 }
 
   .rev{
@@ -50,9 +54,18 @@ h2{
     .rev {
       height: 195vh;
     }
+
     .icons{
-      display: none;
+      position: absolute !important;
+      top: -3% !important;
+      left: 0 !important;
     }
+
+     .button{
+      font-size: 1.5rem;
+
+    }
+
 
     .revimage img{
       margin-left:35% !important;
@@ -69,11 +82,27 @@ h2{
   background: rgb(229,229,229);
   background: radial-gradient(circle, rgba(229,229,229,1) 0%, rgba(246,246,246,1) 21%, rgba(225,225,225,1) 92%);
   overflow: hidden;
+  box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.521);
  }
 
  .revbord{
   margin-bottom: 100px;
  }
+
+
+
+
+ .icons  swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.icons swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
