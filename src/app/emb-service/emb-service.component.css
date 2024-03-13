@@ -1,11 +1,17 @@
+h5{
+  color: var(--heading-color);
+  font-weight: bold;
+}
+
 .head{
  height: 30vh;
  background: rgb(0,0,0);
  background: linear-gradient(0deg, rgba(0,0,0,1) 24%, rgba(0,0,0,1) 27%, rgba(0,0,0,0.8575805322128851) 100%);
 }
 
+
 .head span{
-  color:#006f70;
+  color: var(--heading-color);
 }
 
 .head p{
@@ -20,9 +26,31 @@
 }
 
 .btsec .btn{
- color: #a58e0c;
+ color: var(--theme-color);
  background-color: black;
+ align-items: center;
 }
+.format h1{
+  color: var(--heading-color);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.tbb h1{
+  color: var(--heading-color);
+  font-size: 3rem;
+  font-weight: bold;
+}
+.tbb{
+  border: 3px solid;
+  padding: 2%;
+
+}
+
+.digi{
+  font-weight: bold;
+}
+
 
 
 

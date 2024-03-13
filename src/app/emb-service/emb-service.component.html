@@ -5,20 +5,442 @@
  <p class="text-white">We are offering custom embroidery digitizing with the fastest turn around time at reasonable price and providing high quality work with friendly customer support</p>
 </div>
 </div>
-<div class="row mb-5">
-<div class="col-md-12  btsec">
- <button class="btn ">Format</button>&nbsp;
- <button class="btn ">Turnaround</button>&nbsp;
- <button class="btn ">Price</button>&nbsp;
- <button class="btn ">Gallery</button>&nbsp;
- <button class="btn ">Order Now </button>
-</div>
-</div>
-</div>
-<div class="container-fluid format">
-<div class="row">
-  <div class="col-md-12">
-    <img src="" alt="">
+<div class="row mt-3 mb-2">
+  <div class="col-md-3"></div>
+  <div class="col-md-8  px-5 btsec">
+    <button (click)="toggleMain()" class="btn" [disabled]="mainClicked">Main</button>&nbsp;
+    <button (click)="toggleFormat()" class="btn" [disabled]="formatClicked">Format</button>&nbsp;
+    <button (click)="toggleTurn()" class="btn" [disabled]="turnClicked">Turnaround</button>&nbsp;
+    <button (click)="togglePrice()" class="btn" [disabled]="priceClicked">Price</button>&nbsp;
+    <button (click)="togglegall()" class="btn" [disabled]="galleryClicked">Gallery</button>&nbsp;
+    <button (click)="toggleOrder()" class="btn" [disabled]="orderClicked">Order Now</button>
   </div>
+  <div class="col-md-"></div>
 </div>
 </div>
+
+@if(main){
+<div class="container-fluid main">
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+    <img class="image-fluid w-100" src="assets/embroidy/1.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row mt-1">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+    <img class="image-fluid w-100" src="assets/embroidy/2.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row mt-1">
+  <div class="col-md-1"></div>
+  <div class="col-md-5 ">
+    <img class=" w-100" src="assets/embroidy/3.jpg" alt="">
+  </div>
+  <div  class="col-md-5">
+    <img  class="w-100" src="assets/embroidy/4.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row mt-1">
+  <div class="col-md-1"></div>
+  <div class="col-md-5 ">
+    <img class=" w-100" src="assets/embroidy/5.jpg" alt="">
+  </div>
+  <div  class="col-md-5">
+    <img  class="w-100" src="assets/embroidy/6.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row mt-1">
+  <div class="col-md-1"></div>
+  <div class="col-md-5 ">
+    <img class=" w-100" src="assets/embroidy/7.jpg" alt="">
+  </div>
+  <div  class="col-md-5">
+    <img  class="w-100" src="assets/embroidy/8.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row mt-1">
+  <div class="col-md-1"></div>
+  <div class="col-md-5 ">
+    <img class=" w-100" src="assets/embroidy/9.jpg" alt="">
+  </div>
+  <div  class="col-md-5">
+    <img  class="w-100" src="assets/embroidy/10.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row mt-1">
+  <div class="col-md-1"></div>
+  <div class="col-md-5 ">
+    <img class=" w-100" src="assets/embroidy/11.jpg" alt="">
+  </div>
+  <div  class="col-md-5">
+    <img  class="w-100" src="assets/embroidy/12.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row mt-1">
+  <div class="col-md-1"></div>
+  <div class="col-md-5 ">
+    <img class=" w-100" src="assets/embroidy/13.jpg" alt="">
+  </div>
+  <div  class="col-md-5">
+    <img  class="w-100" src="assets/embroidy/14.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row mt-1">
+  <div class="col-md-1"></div>
+  <div class="col-md-5 ">
+    <img class=" w-100" src="assets/embroidy/15.jpg" alt="">
+  </div>
+  <div  class="col-md-5">
+    <img  class="w-100" src="assets/embroidy/16.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row mt-1">
+  <div class="col-md-1"></div>
+  <div class="col-md-5 ">
+    <img class=" w-100" src="assets/embroidy/17.jpg" alt="">
+  </div>
+  <div  class="col-md-5">
+    <img  class="w-100" src="assets/embroidy/18.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row mt-1">
+  <div class="col-md-1"></div>
+  <div class="col-md-5 ">
+    <img class=" w-100" src="assets/embroidy/19.jpg" alt="">
+  </div>
+  <div  class="col-md-5">
+    <img  class="w-100" src="assets/embroidy/20.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row mt-1">
+  <div class="col-md-1"></div>
+  <div class="col-md-5 ">
+    <img class=" w-100" src="assets/embroidy/21.jpg" alt="">
+  </div>
+  <div  class="col-md-5">
+    <img  class="w-100" src="assets/embroidy/22.jpg" alt="">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+</div>
+}@else if (format) {
+  <div class="container-fluid format pb-5">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10 tbb">
+        <h1>FORMATS</h1>
+        <h5>File Format We Can Provide</h5>
+        <p>There are many different embroidery file formats for different commercial embroidery machines and home sewing machines. We can digitize most of them if not all. If there are any formats that we cannot do, chances are, your machine will support multiple formats and there will be one or more of those formats that we can do. This has always been the case in our practice, and we have almost never turned anyone away. Below is a list of the formats that we can do.</p>
+        <p class="digi" >DIGITIZING FORMAT</p>
+        <div class="table-responsive">
+        <table class="table table-borderless table-responsive ">
+        <thead>
+          <tr>
+              <th><h5>By Manufacturer</h5></th>
+              <th></th>
+              <th><h5>By Format</h5></th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Machine Manufacturer </td>
+          <td>file format</td>
+          <td>file format</td>
+          <td>Machine Manufacturer</td>
+        </tr>
+        <tr>
+          <td>Artista Design</td>
+          <td>ART</td>
+          <td>10O</td>
+          <td>Toyota</td>
+        </tr>
+        <tr>
+          <td>Babylock, Brother, Deco</td>
+          <td>PEC</td>
+          <td>AMT42</td>
+          <td>Explorations Templates</td>
+        </tr>
+        <tr>
+          <td>Babylock, Brother, Deco</td>
+          <td>PEC</td>
+          <td>ART</td>
+          <td>Artista Design</td>
+        </tr>
+        <tr>
+          <td>Barudan</td>
+          <td>DSB</td>
+          <td>ART42</td>
+          <td>Explorations Projects </td>
+        </tr>
+        <tr>
+          <td>Barudan</td>
+          <td>T03</td>
+          <td>CND</td>
+          <td>Meleco</td>
+        </tr>
+        <tr>
+          <td>Barudan</td>
+          <td>U??</td>
+          <td>CSD</td>
+          <td>Poem, Huskygram, Singer</td>
+        </tr>
+        <tr>
+          <td>Compucon/Singer</td>
+          <td>XXX</td>
+          <td>DAT</td>
+          <td>Hiraoka DAT</td>
+        </tr>
+        <tr>
+          <td>Explorations Templates</td>
+          <td>AMT42</td>
+          <td>DSB</td>
+          <td>Barudan</td>
+        </tr>
+        <tr>
+          <td>Explorations Projects </td>
+          <td>ART42</td>
+          <td>DST</td>
+          <td>Tajima</td>
+        </tr>
+        <tr>
+          <td>Happy</td>
+          <td>TAP</td>
+          <td>DSZ</td>
+          <td>ZSK</td>
+        </tr>
+        <tr>
+          <td>Hiraoka DAT</td>
+          <td>TAP</td>
+          <td>EMB</td>
+          <td>Willcom</td>
+        </tr>
+        <tr>
+          <td>Hiraoka VEP</td>
+          <td>VEP</td>
+          <td>ESL</td>
+          <td>Willcom ESL</td>
+        </tr>
+        <tr>
+          <td>Husqvarna/Viking</td>
+          <td>HUS</td>
+          <td>ESS</td>
+          <td>Willcom ESS</td>
+        </tr>
+        <tr>
+          <td>Husqvarna/Viking/PFAFF</td>
+          <td>VIP</td>
+          <td>EXP</td>
+          <td>Melco</td>
+        </tr>
+        <tr>
+          <td>Janmoe/Elna/kenmore</td>
+          <td>JEF</td>
+          <td>HUS</td>
+          <td>Husqvarna/viking</td>
+        </tr>
+        <tr>
+          <td>Janmoe/Elna/kenmore</td>
+          <td>SEW</td>
+          <td>JEF</td>
+          <td>Janmoe/Elna/kenmore</td>
+        </tr>
+        <tr>
+          <td>Melco</td>
+          <td>CND</td>
+          <td>KSM</td>
+          <td>Pfaff</td>
+        </tr>
+        <tr>
+          <td>Melco</td>
+          <td>EXP</td>
+          <td>MJD</td>
+          <td>Time and Space MJD</td>
+        </tr>
+        <tr>
+          <td>Pfaff</td>
+          <td>KSM</td>
+          <td>NGS</td>
+          <td>Wings System</td>
+        </tr>
+        <tr>
+          <td>Pfaff</td>
+          <td>PCD</td>
+          <td>PCD</td>
+          <td>Pfaff</td>
+        </tr>
+        <tr>
+          <td>Pfaff</td>
+          <td>PCQ</td>
+          <td>PCQ</td>
+          <td>Pfaff</td>
+        </tr>
+        <tr>
+          <td>Pfaff</td>
+          <td>PCS</td>
+          <td>PCS</td>
+          <td>Pfaff</td>
+        </tr>
+        <tr>
+          <td>Pfaff</td>
+          <td>T01</td>
+          <td>PEC</td>
+          <td>Babylock, Lock, Deco</td>
+        </tr>
+        <tr>
+          <td>Poem Huskygram, Singer</td>
+          <td>CSD</td>
+          <td>PES</td>
+          <td>Babylock, Lock, Deco</td>
+        </tr>
+        <tr>
+          <td>Saurer SLC</td>
+          <td>SAS</td>
+          <td>T01</td>
+          <td>Tajima</td>
+        </tr>
+        <tr>
+          <td>Tajima</td>
+          <td>DST</td>
+          <td>T03</td>
+          <td>Barudan</td>
+        </tr>
+        <tr>
+          <td>Tajima</td>
+          <td>T01</td>
+          <td>T04</td>
+          <td>Zangs</td>
+        </tr>
+        <tr>
+          <td>Time and Space Singer</td>
+          <td>MJD</td>
+          <td>T05</td>
+          <td>ZSK</td>
+        </tr>
+        <tr>
+          <td>Toyota </td>
+          <td>10O</td>
+          <td>T09</td>
+          <td>Pfaff</td>
+        </tr>
+        <tr>
+          <td>Willcom</td>
+          <td>EMB</td>
+          <td>T10</td>
+          <td>Willcom Plauen</td>
+        </tr>
+        <tr>
+          <td>Willcom ESL </td>
+          <td>ESL</td>
+          <td>T15</td>
+          <td>Willcom Saurer</td>
+        </tr>
+        <tr>
+          <td>Willcom ESS</td>
+          <td>ESS</td>
+          <td>TAP</td>
+          <td>Happy</td>
+        </tr>
+        <tr>
+          <td>Willcom Plauen</td>
+          <td>T10</td>
+          <td>SAS</td>
+          <td>Saurer SLC</td>
+        </tr>
+        <tr>
+          <td>Willcom Saurer </td>
+          <td>T15</td>
+          <td>SEW</td>
+          <td>Janmoe/Elna/Kenmore</td>
+        </tr>
+        <tr>
+          <td>Willcom Saurer</td>
+          <td>NGS</td>
+          <td>U??</td>
+          <td>Barudan</td>
+        </tr>
+        <tr>
+          <td>Wings System</td>
+          <td>T04</td>
+          <td>VEP</td>
+          <td>Hiraoka VEP</td>
+        </tr>
+        <tr>
+          <td>Zangs</td>
+          <td>T04</td>
+          <td>VIP</td>
+          <td>Husqvarna viking/Pfaff<td>
+        </tr>
+        <tr>
+          <td>ZSK</td>
+          <td>DSZ</td>
+          <td>XXX</td>
+          <td>Compucon/Singer<td>
+        </tr>
+        <tr>
+          <td>ZSK TC</td>
+          <td>Z??</td>
+          <td>Z??</td>
+          <td>ZSK TC<td>
+        </tr>
+        </tbody>
+        </table>
+      </div>
+        <h5 class="pb-2">Softwares We Use </h5>
+        <h5>Artwork File Format You can Submit</h5>
+        <p>We recommend that you prepare your artwork or ask your client to submit artwork in one of these formats:</p>
+        <p><b>JPG</b> - good choice for images with many colors, photos, scanned images, etc.
+          <b>GIF, PNG</b>- ideal for designs with fewer colors, especially larger areas of solid colors. e.g. text, logo
+          <b>PDF</b></p>
+        <p><b>EPS, AI </b>- these are vector formats meaning the artwork can be easily scaled. Don't forget to convert fonts used in the design into outlines <b>Word Document</b> - some clients do send these, it is ok. Just keep in mind that instead of embedding an image to a Word document that may lower its quality, you can just send that image.</p>
+        <p><b> TIFF,</b> BMP - these will work, but the file size may be huge. Alternatively, JPG may be a better format to use.</p>
+        <p>If you've got a different format, send it anyway we'll let you know if we can't open it.</p>
+        <p>Two important factors to consider - image size and file size. We suggest that you submit a relatively large image, ideally at 300dpi resolution (e.g. if the desired size is 3" x 3", at 300 dpi, the image size will be 900 x 900 pixels). However, please prepare a relatively smaller file size, recommended to be below 2MB. Again, keep in mind that generally JPG is good in compression, while TIFF and BMP may be 10 times bigger.</p>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+
+  </div>
+}
+@else if (turn) {
+  <div class="container-fluid Turn  pb-5">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10 tbb">
+          <h1>Turnaround</h1>
+          <h5>Turnaround Time</h5>
+          <p>Our digitizers & Designers work around the clock - almost 24 hours a day, 7 days a week. This allows us to deliver quality digitizing service in a timely manner. More often than not, Our clients place standard orders and get express service without extra cost. Though we state that our standard turnaround time is up to 12 hours, we often return the same day if order placed in the morning some times in a couple hours. An- other typical practice is "Place order by dinner and get it back by breakfast". This doesn't mean that we rush the digitizing job without care. We treat every order with care and have the QA (quality assurance) in place whether the design is big or small.</p>
+          <p>If you have any urgent request, let us know and we will do our best to meet your deadline.</p>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+}
+@else if (price) {
+  <div class="container-fluid">
+    <h1>PRICE</h1>
+  </div>
+}
+@else if (gallery) {
+  <div class="container-fluid">
+    <h1>GALLERY</h1>
+  </div>
+}
+@else if (order) {
+  <div class="container-fluid">
+    <h1>Order Now</h1>
+  </div>
+}
+
