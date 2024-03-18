@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component ,OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-emb-service',
@@ -8,6 +9,9 @@ import { Component } from '@angular/core';
   styleUrl: './emb-service.component.css'
 })
 export class EmbServiceComponent {
+
+
+
   main:boolean = true
   format:boolean = false
   turn:boolean = false

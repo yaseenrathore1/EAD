@@ -69,10 +69,19 @@ font-variation-settings:
 }
 .progress-bar{
   background-color: #006f70;
+  animation: fillbar  2.5s  1;
 }
 
 
+@keyframes fillbar{
+  from{
+    width: 0%;
 
+  }
+  to{
+    width: 100%;
+  }
+}
 
 /* review section  */
 .rev{
@@ -136,3 +145,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
+
+
