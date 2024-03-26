@@ -54,16 +54,66 @@ background: linear-gradient(90deg, rgba(4,3,1,0.938813025210084) 61%, rgba(0,111
 .brd{
   border: 3px solid;
   padding: 0%;
+
 }
 
 .digi{
   font-weight: bold;
 }
 
-
+.pricing .priheading{
+  font-family: "Open Sans", sans-serif;
+  font-weight:1000;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.9836309523809523) 41%, rgba(0,111,112,1) 64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* For Safari/WebKit */
+  background-clip: text;
+  color: transparent;
+}
+.DEPENDS{
+  text-align: center  ;
+}
 .pricing  h1{
   color: var(--heading-color);
   font-size: 3rem;
   font-weight: bold;
 }
+ /* form section start */
+ .order{
+  position: relative;
+ }
+.formheader{
+ text-align: center;
+ background: rgb(0,0,0);
+ background: linear-gradient(0deg, rgba(0,0,0,0.9836309523809523) 34%, rgba(0,111,112,1) 64%);
+ color: #fff;
+ border-radius:10px;
+}
 
+input, select ,textarea {
+  width: 100%;
+  padding: 10px; ;
+  border: 1px solid var(--heading-color);
+  margin-bottom: 10px;
+}
+
+form{
+  padding: 20px;
+  border: 1px solid var(--heading-color);
+  margin-left: 25%;
+  width: 50%;
+
+}
+
+
+input::file-selector-button{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.9836309523809523) 34%, rgba(0,111,112,1) 64%); /* Change the background color as desired */
+  color: #fff;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+.fileup{
+  border: none;
+  font-size: 1.5rem;
+}
