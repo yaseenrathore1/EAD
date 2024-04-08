@@ -78,10 +78,17 @@ background: linear-gradient(90deg, rgba(4,3,1,0.938813025210084) 61%, rgba(0,111
   font-size: 3rem;
   font-weight: bold;
 }
+/* gallery section  */
+#gallery img:hover{
+  transform: scale(1.1,1.1);
+  transition: 0.5s;
+}
+
  /* form section start */
  .order{
   position: relative;
  }
+
 .formheader{
  text-align: center;
  background: rgb(0,0,0);
@@ -108,7 +115,7 @@ form{
 
 input::file-selector-button{
   background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,0.9836309523809523) 34%, rgba(0,111,112,1) 64%); /* Change the background color as desired */
+  background: linear-gradient(0deg, rgba(0,0,0,0.9836309523809523) 34%, rgba(0,111,112,1) 64%);
   color: #fff;
   border-radius: 2px;
   margin-left: 10px;
@@ -117,3 +124,12 @@ input::file-selector-button{
   border: none;
   font-size: 1.5rem;
 }
+
+.subbutn button
+{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.9836309523809523) 34%, rgba(0,111,112,1) 64%);
+  color: #fff;
+  font-size: 1.5rem;
+}
+ 

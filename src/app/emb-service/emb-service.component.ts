@@ -10,8 +10,6 @@ import { HttpClient } from '@angular/common/http';
 })
 export class EmbServiceComponent {
 
-
-
   main:boolean = true
   format:boolean = false
   turn:boolean = false

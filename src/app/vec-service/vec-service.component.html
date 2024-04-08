@@ -1,0 +1,417 @@
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-md-12 head mb-2 mt-5  bg-dark">
+   <h1><span>VECTOR </span> ART</h1>
+   <p class="text-white">We are offering custom embroidery digitizing with the fastest turn around time at reasonable price and providing high quality work with friendly customer support</p>
+  </div>
+  </div>
+  <div class="row mt-3 mb-2">
+    <div class="col-md-3"></div>
+    <div class="col-md-8  px-5 btsec">
+      <button (click)="toggleMain()" class="btn  mb-2" [disabled]="mainClicked">Main</button>&nbsp;
+      <button (click)="toggleFormat()" class="btn mb-2" [disabled]="formatClicked">Format</button>&nbsp;
+      <button (click)="toggleTurn()" class="btn mb-2" [disabled]="turnClicked">Turnaround</button>&nbsp;
+      <button (click)="togglePrice()" class="btn mb-2" [disabled]="priceClicked">Price</button>&nbsp;
+      <button (click)="togglegall()" class="btn mb-2" [disabled]="galleryClicked">Gallery</button>&nbsp;
+      <button (click)="toggleOrder()" class="btn mb-2" [disabled]="orderClicked">Order Now</button>
+    </div>
+    <div class="col-md-"></div>
+  </div>
+  </div>
+  @if(main){
+  <div class="container-fluid main">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <img class="image-fluid w-100" src="assets/Vector/1.jpg" alt="">
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  <div class="row mt-1">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <img class="image-fluid w-100" src="assets/Vector/2.jpg" alt="">
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  <div class="row mt-1">
+    <div class="col-md-1"></div>
+    <div class="col-md-5 ">
+      <img class=" w-100" src="assets/Vector/3.jpg" alt="">
+    </div>
+    <div  class="col-md-5">
+      <img  class="w-100" src="assets/Vector/4.jpg" alt="">
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  <div class="row mt-1">
+    <div class="col-md-1"></div>
+    <div class="col-md-5 ">
+      <img  class="w-100" src="assets/Vector/6.jpg" alt="">
+    </div>
+    <div  class="col-md-5">
+      <img class=" w-100" src="assets/Vector/5.jpg" alt="">
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  <div class="row mt-1">
+    <div class="col-md-1"></div>
+    <div class="col-md-5 ">
+      <img class=" w-100" src="assets/Vector/7.jpg" alt="">
+    </div>
+    <div  class="col-md-5">
+      <img  class="w-100" src="assets/Vector/8.jpg" alt="">
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  <div class="row mt-1">
+    <div class="col-md-1"></div>
+    <div class="col-md-5 ">
+      <img  class="w-100" src="assets/Vector/10.jpg" alt="">
+    </div>
+    <div  class="col-md-5">
+      <img class=" w-100" src="assets/Vector/9.jpg" alt="">
+    </div>
+    <div class="col-md-1"></div>
+
+  </div>
+  </div>
+  }@else if (format) {
+    <div class="container-fluid format pb-5">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 tbb">
+          <h1>FORMATS</h1>
+          <h5>File Format We Can Provide</h5>
+          <p>There are many different embroidery file formats for different commercial embroidery machines and home sewing machines. We can digitize most of them if not all. If there are any formats that we cannot do, chances are, your machine will support multiple formats and there will be one or more of those formats that we can do. This has always been the case in our practice, and we have almost never turned anyone away. Below is a list of the formats that we can do.</p>
+          <p class="digi">VECTOR ARTWORK FORMATs</p>
+          <div class="table-responsive">
+          <table class="table table-borderless table-responsive ">
+          <thead>
+            <tr>
+                <th><h5>Softwares</h5></th>
+                <th><h5>Format</h5></th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Illustration</td>
+            <td>.AI .EPS .pdf .svg</td>
+
+          </tr>
+          <tr>
+            <td>Photoshop</td>
+            <td>.PSD .SCT</td>
+
+          </tr>
+          <tr>
+            <td>Windows Bitmap</td>
+            <td>.BMP</td>
+
+          </tr>
+          <tr>
+            <td>CompuServe</td>
+            <td>.Gif</td>
+
+          </tr>
+          <tr>
+            <td>TIFF Bitmap</td>
+            <td>.Tif</td>
+
+          </tr>
+          <tr>
+            <td>Targa Bitmap</td>
+            <td>.TGA</td>
+          </tr>
+          <tr>
+            <td>JPEG Bitmap</td>
+            <td>.JPG .JPEG</td>
+          </tr>
+          <tr>
+            <td>CorelDRAW</td>
+            <td>.CDR</td>
+          </tr>
+          <tr>
+            <td>Micrsoft Office</td>
+            <td>.DOC .PPT .XLS </td>
+
+          </tr>
+          <tr>
+            <td>Windows Metafile</td>
+            <td>.WMF</td>
+          </tr>
+          <tr>
+            <td>Others</td>
+            <td>.ZIP .DAT</td>
+          </tr>
+          </tbody>
+          </table>
+        </div>
+          <h5 class="pb-2">Softwares We Use </h5>
+          <h5>Artwork File Format You can Submit</h5>
+          <p>We recommend that you prepare your artwork or ask your client to submit artwork in one of these formats:</p>
+          <p><b>JPG</b> - good choice for images with many colors, photos, scanned images, etc.
+            <b>GIF, PNG</b>- ideal for designs with fewer colors, especially larger areas of solid colors. e.g. text, logo
+            <b>PDF</b></p>
+          <p><b>EPS, AI </b>- these are vector formats meaning the artwork can be easily scaled. Don't forget to convert fonts used in the design into outlines <b>Word Document</b> - some clients do send these, it is ok. Just keep in mind that instead of embedding an image to a Word document that may lower its quality, you can just send that image.</p>
+          <p><b> TIFF,</b> BMP - these will work, but the file size may be huge. Alternatively, JPG may be a better format to use.</p>
+          <p>If you've got a different format, send it anyway we'll let you know if we can't open it.</p>
+          <p>Two important factors to consider - image size and file size. We suggest that you submit a relatively large image, ideally at 300dpi resolution (e.g. if the desired size is 3" x 3", at 300 dpi, the image size will be 900 x 900 pixels). However, please prepare a relatively smaller file size, recommended to be below 2MB. Again, keep in mind that generally JPG is good in compression, while TIFF and BMP may be 10 times bigger.</p>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+    </div>
+  }
+  @else if (turn) {
+    <div class="container-fluid Turn  pb-5">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 tbb">
+            <h1>Turnaround</h1>
+            <h5>Turnaround Time</h5>
+            <p>Our Vector Artist work around the clock almost 24 hours a day, 7 days a week. This allows us to deliver quality Vector Art service in a timely manner. More often than not, Our clients place standard orders and get express service without extra cost. Though we state that our standard turnaround time is up to 12 hours, we often return the same day if order placed in the morning - some times in a couple hours. Another typical practice is "Place order by dinner and get it back by breakfast". This doesn't mean that we rush the Vector job without care. We treat every order with care and have the QA (quality assurance) in place whether the design is big or small.</p>
+            <p>If you have any urgent request, let us know and we will do our best to meet your deadline.</p>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  }
+  @else if (price) {
+    <div class="container-fluid  pb-5 pricing">
+      <div class="brd mx-5 ">
+      <div class="row px-3">
+        <div class="col-md-10 ">
+            <h1>Pricing</h1>
+            <h5>Our Affordable Price Plans</h5>
+            <p class="pb-3 px-0">The war of price cannot last forever, fighting for quality can and will. That's why we are not trying to beat each of our competitors with lower price and poor quality instead of this we are always trying to give good quality Vector Art services with reasonable price. We always focus on providing top quality Vector and gave a difficult task to our competitors to chase our higher standard and obviously it is much harder thing to do. If good quality is also your top priority, you must try our services and you will not be disappointed.</p>
+        </div>
+      </div>
+      <div class="border mt-5"></div>
+      <div class="row">
+        <div class="col-md-2"><img class="w-100" src="assets/poster/1.png" alt=""></div>
+        <div class="col-md-2"><img class="w-100" src="assets/poster/2.png" alt=""></div>
+        <div class="col-md-2"><img class="w-100" src="assets/poster/3.png" alt=""></div>
+        <div class="col-md-2"><img class="w-100" src="assets/poster/4.png" alt=""></div>
+        <div class="col-md-2"><img class="w-100" src="assets/poster/5.png" alt=""></div>
+        <div class="col-md-2"><img class="w-100" src="assets/poster/6.png" alt=""></div>
+      </div>
+      <div class="border mb-5"></div>
+      <div class="row DEPENDS">
+       <h5 class="fs-2">OUR PRICE DEPENDS ON </h5>
+       <h1 class="priheading">COMPLEXITY OF YOUR ARTWORK</h1>
+       <P>The price range of our service are categorized below to give you better understanding</P>
+       <div class="col-md-4"><img class="w-100" src="assets/Vector/BASIC.png" alt=""></div>
+       <div class="col-md-4"><img class="w-100" src="assets/Vector/Premium.png" alt=""> </div>
+       <div class="col-md-4"><img class="w-100" src="assets/Vector/STANDARD.png" alt=""> </div>
+      </div>
+
+    <div class="row mt-5 mb-5">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <img class="w-100" src="assets/Vector/Pricing-Slider-Vector.jpg" alt="">
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+
+    </div> <!--main border div -->
+    </div>
+  }
+  @else if (gallery) {
+    <div class="container-fluid" id="gallery">
+      <div class="brd mx-5 ">
+      <div class="row  mt-3"> <!--row 1-->
+        <div class="col-md-1"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/39.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/1.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/40.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/2.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/3.jpg" alt="" class="w-100"></div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div class="row  mt-2"> <!--row 2 -->
+        <div class="col-md-1"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/4.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/5.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/6.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/7.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/8.jpg" alt="" class="w-100"></div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div class="row 2 mt-2">  <!--row 3 -->
+        <div class="col-md-1"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/9.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/8.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/11.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/12.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/13.jpg" alt="" class="w-100"></div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div class="row 2 mt-2"> <!--row 4 -->
+        <div class="col-md-1"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/14.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/15.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/16.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/17.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/18.jpg" alt="" class="w-100"></div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div class="row 2 mt-2"> <!--row 5 -->
+        <div class="col-md-1"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/19.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/20.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/21.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/22.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/23.jpg" alt="" class="w-100"></div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div class="row 2 mt-2"> <!--row 6 -->
+        <div class="col-md-1"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/24.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/25.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/26.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/27.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/28.jpg" alt="" class="w-100"></div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div class="row 2 mt-2"> <!--row 7 -->
+        <div class="col-md-1"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/29.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/30.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/31.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/32.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/33.jpg" alt="" class="w-100"></div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div class="row 2 mt-2"> <!--row 7 -->
+        <div class="col-md-1"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/34.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/35.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/36.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/37.jpg" alt="" class="w-100"></div>
+        <div class="col-md-2 px-1"><img src="assets/Vec-gallery/38.jpg" alt="" class="w-100"></div>
+        <div class="col-md-1"></div>
+      </div>
+
+
+    </div> <!--main border div -->
+  </div>
+  }
+  @else if (order) {
+    <div class="container-fluid ">
+
+   <form action="" class="mb-5" >
+    <div class="row mb-3">
+      <div class="col-md-2"></div>
+    <div class="col-md-8 formheader"><h1 class="forheading">Get Your Free Qoute</h1></div>
+      <div class="col-md-2"></div>
+     </div>
+
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <input type="text" name="" class="form-control" placeholder="Full Name" id="full-Name">
+      </div>
+      <div class="col-md-6">
+        <input type="email" name="" class="form-control" placeholder="Email" id="mail">
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <input type="text" name="" class="form-control" placeholder="Company name" id="cmp-name">
+      </div>
+      <div class="col-md-6">
+        <input type="number" name="" class="form-control" placeholder="Contact Number" id="contact">
+      </div>
+    </div>
+
+    <!-- Dropdowns -->
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <select class="form-control">
+          <option value="">Services</option>
+          <option value="">Custom Vector Art</option>
+          <option value="">Vecor logo</option>
+          <option value="">Convert Raster To Vector</option>
+          <option value="">Convert TIFF To Vector</option>
+          <option value="">Color Separation</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <select class="form-control">
+          <option value="">File Format</option>
+          <option value="">PNG</option>
+          <option value="">JPG</option>
+          <option value="">AI</option>
+          <option value="">EPS</option>
+          <option value="">SVG</option>
+          <option value="">OTHER</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <select class="form-control">
+          <option value="" >Turnaround</option>
+          <option value="" disabled>Choose an option</option>
+          <option value="">Normal</option>
+          <option value="">Urgent</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <select class="form-control">
+          <option value="">Complexity</option>
+          <option value="">Choose an option</option>
+          <option value="">Simple (Text Only)</option>
+          <option value="">Medium (Monogram)</option>
+          <option value="">Complex (Detail work)</option>
+          <option value="">Hard Core (Max Detail)<option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <input type="number" name="" class="form-control" placeholder="Width" id="cmp-name">
+      </div>
+      <div class="col-md-6">
+        <input type="number" name="" class="form-control" placeholder="Height" id="contact">
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-12">
+        <textarea class="form-control" placeholder="Your project Details" rows="4"></textarea>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-12">
+        <input class="form-control fileup" type="file" value="choose file">
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="row subbutn" >
+      <div class="col-md-12">
+        <button type="submit" class="btn w-100">Submit</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <img class="w-100" src="assets/Vector/V-01-01.png" alt="">
+      </div>
+    </div>
+  </form>
+    </div>
+  }
+

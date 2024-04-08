@@ -1,0 +1,139 @@
+h5{
+  color: var(--heading-color);
+  font-weight: bold;
+}
+
+.border{
+  border-bottom: 5px solid #ffe701  !important;
+  height: 2px;
+
+}
+.head{
+ height: 35vh;
+ background: rgb(4,3,1);
+background: linear-gradient(90deg, rgba(4,3,1,0.938813025210084) 61%, rgba(0,111,112,0.7903536414565826) 90%);
+}
+
+@media screen and (max-width: 768px){
+  .head{
+    height: 60vh;
+  }
+}
+
+.head span{
+  color: var(--heading-color);
+}
+
+.head p{
+ text-align: center;
+
+}
+.head h1 {
+  padding-top: 4%;
+  text-align: center;
+  color:#fff;
+  font-size:4rem;
+}
+
+.btsec .btn{
+ color: var(--theme-color);
+ background-color: black;
+ align-items: center;
+}
+.format h1{
+  color: var(--heading-color);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.tbb h1{
+  color: var(--heading-color);
+  font-size: 3rem;
+  font-weight: bold;
+}
+.tbb{
+  border: 3px solid;
+  padding: 2%;
+
+}
+.brd{
+  border: 3px solid;
+  padding: 0%;
+
+}
+
+.digi{
+  font-weight: bold;
+}
+
+.pricing .priheading{
+  font-family: "Open Sans", sans-serif;
+  font-weight:1000;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.9836309523809523) 41%, rgba(0,111,112,1) 64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* For Safari/WebKit */
+  background-clip: text;
+  color: transparent;
+}
+.DEPENDS{
+  text-align: center  ;
+}
+.pricing  h1{
+  color: var(--heading-color);
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* gallery section  */
+#gallery img:hover{
+  transform: scale(1.1,1.1);
+  transition: 0.5s;
+}
+
+ /* form section start */
+ .order{
+  position: relative;
+ }
+
+.formheader{
+ text-align: center;
+ background: rgb(0,0,0);
+ background: linear-gradient(0deg, rgba(0,0,0,0.9836309523809523) 34%, rgba(0,111,112,1) 64%);
+ color: #fff;
+ border-radius:10px;
+}
+
+input, select ,textarea {
+  width: 100%;
+  padding: 10px; ;
+  border: 1px solid var(--heading-color);
+  margin-bottom: 10px;
+}
+
+form{
+  padding: 20px;
+  border: 1px solid var(--heading-color);
+  margin-left: 25%;
+  width: 50%;
+
+}
+
+
+input::file-selector-button{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.9836309523809523) 34%, rgba(0,111,112,1) 64%);
+  color: #fff;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+.fileup{
+  border: none;
+  font-size: 1.5rem;
+}
+
+.subbutn button
+{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.9836309523809523) 34%, rgba(0,111,112,1) 64%);
+  color: #fff;
+  font-size: 1.5rem;
+}
